@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belviora | Jewellery & Bridal Beauty</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #fffaf7;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            url("https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0") center/cover no-repeat;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 15px;
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 70px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #9b5d73;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.4s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .services {
+            background: #fff0f5;
+        }
+
+        .services p {
+            font-size: 1.1rem;
+            margin-top: 15px;
+        }
+
+        .contact {
+            background: #9b5d73;
+            color: white;
+        }
+
+        .contact h2 {
+            color: white;
+        }
+
+        .contact p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #2f2f2f;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <div>
+            <h1>Belviora</h1>
+            <p>Timeless Jewellery • Elegant Accessories • Bridal Beauty</p>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h2>About Belviora</h2>
+        <p>
+            Belviora is a luxury jewellery and accessory brand, meticulously crafted to embody elegance, grace, and confidence. From bold statement pieces to delicate everyday accessories, our designs celebrate both beauty and tradition.
+            <br><br>
+            In addition to our jewellery, we specialise in <strong>professional bridal makeup</strong>, ensuring every bride radiates with confidence and timeless charm. We also offer all type of makeover services to enhance your natural beauty and boost your confidence.
+            <br><br>
+            To capture your most cherished moments, we provide <strong>professional photoshoots</strong>, preserving the essence of your life’s most unforgettable occasions in timeless frames.
+        </p>
+    </section>
+
+    <!-- GALLERY -->
+    <section>
+        <h2>Our Collection</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519" alt="Jewellery">
+            <img src="https://images.unsplash.com/photo-1622434641406-a158123450f9" alt="Bridal Jewellery">
+            <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e" alt="Accessories">
+            <img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30" alt="Bridal Makeup">
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+        <h2>What We Offer</h2>
+        <p>✨ Premium Jewellery Accessories</p>
+        <p>✨ Custom Bridal Jewellery</p>
+        <p>✨ Professional Bridal Makeup Services</p>
+        <p>✨ Elegant Styling for Special Occasions</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Phone: <strong>9159325633</strong></p>
+        <p>📍 Available for Bridal & Special Events</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Belviora | Jewellery & Bridal Beauty
+    </footer>
+
+</body>
+</html>
