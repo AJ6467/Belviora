@@ -126,12 +126,11 @@
     <section class="about">
         <h2>About Belviora</h2>
         <p>
-            Belviora is a luxury jewellery accessory brand crafted for elegance, grace,
-            and confidence. From statement jewellery to delicate everyday accessories,
-            we create pieces that celebrate beauty and tradition.
+            Belviora is a luxury jewellery and accessory brand, meticulously crafted to embody elegance, grace, and confidence. From bold statement pieces to delicate everyday accessories, our designs celebrate both beauty and tradition.
             <br><br>
-            We also specialize in <strong>professional bridal makeup</strong>,
-            ensuring every bride shines with confidence and timeless charm.
+            In addition to our jewellery, we specialise in <strong>professional bridal makeup</strong>, ensuring every bride radiates with confidence and timeless charm. We also offer all type of makeover services to enhance your natural beauty and boost your confidence.
+            <br><br>
+            To capture your most cherished moments, we provide <strong>professional photoshoots</strong>, preserving the essence of your life’s most unforgettable occasions in timeless frames.
         </p>
     </section>
 
